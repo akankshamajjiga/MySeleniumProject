@@ -18,11 +18,11 @@ public class Facebook {
 		
          driver.get("https://www.facebook.com/");
          
-         driver.findElement( By.id("email")).sendKeys("learnerChachi@gmail.com");
+         driver.findElement( By.id("email")).sendKeys("******************");
          
          driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
          
-         driver.findElement(By.id("pass")).sendKeys("Aku@1997");
+         driver.findElement(By.id("pass")).sendKeys("*********");
          
          driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
          
