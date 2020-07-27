@@ -9,7 +9,9 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-
+		
+		//System.setProperty("webdriver.chrome.driver","C:\\softwares\\chromedriver_win32\\chromedriver.exe");
+		
 		//WebDriver driver = new ChromeDriver();
 		
         WebDriver driver = new HtmlUnitDriver();
