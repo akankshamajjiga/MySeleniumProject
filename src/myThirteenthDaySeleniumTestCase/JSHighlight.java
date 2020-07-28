@@ -18,9 +18,9 @@ public class JSHighlight {
 				
 	  driver.get("https://www.facebook.com/");
 				
-	  driver.findElement(By.id("email")).sendKeys("learnerChachi@gmail.com");
+	  driver.findElement(By.id("email")).sendKeys("**********************");
 				
-	  driver.findElement(By.id("pass")).sendKeys("Aku@1997");
+	  driver.findElement(By.id("pass")).sendKeys("**********");
 	  
 	  //driver.findElement(By.xpath("//input[contains(@type,'submit')]")).click();
 	  
